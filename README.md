@@ -10,6 +10,7 @@
 - ChainerCV >= 0.13.1
 - OpenCV-Python >= 4.5.5
 - Matplotlib >= 3.3.4
+- xmltodict
 
 ## Abstract
 
@@ -67,6 +68,10 @@ Models                                                 | Manga109 | DCM772 | Com
 [Nguyen et al.](https://www.mdpi.com/2313-433X/4/7/89) | -        | 76.76  | -       | -            | -         | -
 [Inoue et al.](https://arxiv.org/abs/1803.11365)       | -        | -      | 70.10   | 77.30        | 76.20     | -
 
+## Files in This Repository
+
+- `evaluator.ipynb` evaluates all the existing dataset scores if a pre-trained model path is given.
+- `visualizer.ipynb` visualizes a single image in the given path.
 
 ## Visual Examples from "XS Stage-3 Fine-Tuned w/ Mix of Datasets"
 

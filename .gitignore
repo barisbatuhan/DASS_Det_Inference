@@ -1,0 +1,23 @@
+#####################################
+# JUPYTER RELATED FILES
+#####################################
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints
+*/**/.ipynb_checkpoints
+**/.ipynb_checkpoints
+
+#####################################
+# PYTHON RELATED FILES
+#####################################
+
+__pycache__
+*/__pycache__
+*/**/__pycache__
+**/__pycache__
+
+####################################
+# PROJECT RELATED FILES
+####################################
+
+weights/*.pth

@@ -1,0 +1,6 @@
+You can download the related weights from the link: https://drive.google.com/drive/folders/1sQX36bWeIGoAGlQUiaUA9wnEUwtVsS76?usp=sharing
+
+Please note that:
+
+1) If the model name includes 'xs', then the depth and width parameters should be set as 'depth, width = 0.33, 0.375'. If it includes 'xl', then 'depth, width = 1.33, 1.25'. 
+2) For the stage-2 weights (i.e., self-supervised, teacher-student), load the model with the 'teacher_model' key in the weight dictionary. Otherwise use 'model' key.

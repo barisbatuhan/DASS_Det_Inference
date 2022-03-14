@@ -34,7 +34,7 @@ You can find all the pre-trained model weights from [here](https://drive.google.
 
 ## Self-Supervised Design
 
-![Self-Supervised Design](uns_arch.PNG)
+![Self-Supervised Design](images/uns_arch.PNG)
 
 
 ## Results 
@@ -45,13 +45,11 @@ The results shared below are calculated by averaging 5 separate training run out
 
 Models                                                 | iCartoonFace | Manga109 | DCM772
 ---                                                    | ---          | ---      | --- 
-XS Stage-1 All Styles                                  | 42.50        | 54.74    | 69.93
-XS Stage-2 Self-Supervised                             | 49.05        | 69.23    | 82.22
-XS Stage-3 Fine-Tuned w/ Single Datasets               | 87.75        | 87.86    | 75.87
-XS Stage-3 Fine-Tuned w/ Mix of Datasets               | -            | -        | -       
----                                                    | ---          | ---      | --- 
-XL Stage-3 Fine-Tuned                                  | -            | -        | -
----                                                    | ---          | ---      | --- 
+**XS Stage-1 All Styles**                              | 42.50        | 54.74    | 69.93
+**XS Stage-2 Self-Supervised**                         | 49.05        | 69.23    | 82.22
+**XS Stage-3 Fine-Tuned w/ Single Datasets**           | 87.75        | 87.86    | 75.87
+**XS Stage-3 Fine-Tuned w/ Mix of Datasets**           | -            | -        | -       
+**XL Stage-3 Fine-Tuned**                              | -            | -        | -
 [ACFD](https://arxiv.org/abs/2007.00899)               | 90.94        | -        | - 
 [Ogawa et al.](https://arxiv.org/abs/1803.08670)       | -            | 76.20    | -
 [Nguyen et al.](https://www.mdpi.com/2313-433X/4/7/89) | -            | -        | 74.94
@@ -60,13 +58,11 @@ XL Stage-3 Fine-Tuned                                  | -            | -       
 
 Models                                                 | Manga109 | DCM772 | Comic2k | Watercolor2k | Clipart1k | eBDtheque
 ---                                                    | ---      | ---    | ---     | ---          | ---       | --- 
-XS Stage-1 All Styles                                  | 42.72    | 65.46  | 56.80   | 67.36        | 55.65     | 14.70
-XS Stage-2 Self-Supervised                             | 69.41    | 77.83  | 67.38   | 71.60        | 64.12     | 25.22
-XS Stage-3 Fine-Tuned w/ Single Datasets               | 87.06    | 84.89  | 71.66   | 89.17        | 77.97     | - 
-XS Stage-3 Fine-Tuned w/ Mix of Datasets               | -        | -      | -       | -            | -         | -
----                                                    | ---      | ---    | ---     | ---          | ---       | --- 
-XL Stage-3 Fine-Tuned                                  | -        | -      | -       | -            | -         | -
----                                                    | ---      | ---    | ---     | ---          | ---       | --- 
+**XS Stage-1 All Styles**                              | 42.72    | 65.46  | 56.80   | 67.36        | 55.65     | 14.70
+**XS Stage-2 Self-Supervised**                         | 69.41    | 77.83  | 67.38   | 71.60        | 64.12     | 25.22
+**XS Stage-3 Fine-Tuned w/ Single Datasets**           | 87.06    | 84.89  | 71.66   | 89.17        | 77.97     | - 
+**XS Stage-3 Fine-Tuned w/ Mix of Datasets**           | -        | -      | -       | -            | -         | -
+**XL Stage-3 Fine-Tuned**                              | -        | -      | -       | -            | -         | -
 [Ogawa et al.](https://arxiv.org/abs/1803.08670)       | 79.60    | -      | -       | -            | -         | -
 [Nguyen et al.](https://www.mdpi.com/2313-433X/4/7/89) | -        | 76.76  | -       | -            | -         | -
 [Inoue et al.](https://arxiv.org/abs/1803.11365)       | -        | -      | 70.10   | 77.30        | 76.20     | -

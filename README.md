@@ -46,13 +46,16 @@ The results shared below are calculated by averaging 5 separate training run out
 
 ### Face Results
 
+### Face Results
+
 Models                                                 | iCartoonFace | Manga109 | DCM772
 ---                                                    | ---          | ---      | --- 
 **XS Stage-1 All Styles**                              | 42.50        | 54.74    | 69.93
 **XS Stage-2 Self-Supervised**                         | 49.05        | 69.23    | 82.22
 **XS Stage-3 Fine-Tuned w/ Single Datasets**           | 87.75        | 87.86    | 75.87
-**XS Stage-3 Fine-Tuned w/ Mix of Datasets**           | -            | -        | -       
-**XL Stage-3 Fine-Tuned**                              | -            | -        | -
+**XS Stage-3 Fine-Tuned w/ Mix of Datasets**           | 83.15        | 86.45    | 78.40       
+**XL Stage-3 Fine-Tuned w/ Single Datasets**           | -            | -        | -
+**XL Stage-3 Fine-Tuned w/ Mix of Datasets**           | -            | -        | -
 [ACFD](https://arxiv.org/abs/2007.00899)               | 90.94        | -        | - 
 [Ogawa et al.](https://arxiv.org/abs/1803.08670)       | -            | 76.20    | -
 [Nguyen et al.](https://www.mdpi.com/2313-433X/4/7/89) | -            | -        | 74.94
@@ -64,8 +67,9 @@ Models                                                 | Manga109 | DCM772 | Com
 **XS Stage-1 All Styles**                              | 42.72    | 65.46  | 56.80   | 67.36        | 55.65     | 14.70
 **XS Stage-2 Self-Supervised**                         | 69.41    | 77.83  | 67.38   | 71.60        | 64.12     | 25.22
 **XS Stage-3 Fine-Tuned w/ Single Datasets**           | 87.06    | 84.89  | 71.66   | 89.17        | 77.97     | - 
-**XS Stage-3 Fine-Tuned w/ Mix of Datasets**           | -        | -      | -       | -            | -         | -
-**XL Stage-3 Fine-Tuned**                              | -        | -      | -       | -            | -         | -
+**XS Stage-3 Fine-Tuned w/ Mix of Datasets**           | 86.54    | 83.52  | 75.60   | 82.68        | 75.96     | 33.61
+**XL Stage-3 Fine-Tuned w/ Single Datasets**           | -        | -      | -       | -            | -         | -
+**XL Stage-3 Fine-Tuned w/ Mix of Datasets**           | -        | -      | -       | -            | -         | -
 [Ogawa et al.](https://arxiv.org/abs/1803.08670)       | 79.60    | -      | -       | -            | -         | -
 [Nguyen et al.](https://www.mdpi.com/2313-433X/4/7/89) | -        | 76.76  | -       | -            | -         | -
 [Inoue et al.](https://arxiv.org/abs/1803.11365)       | -        | -      | 70.10   | 77.30        | 76.20     | -

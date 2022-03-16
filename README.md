@@ -70,6 +70,17 @@ Models                                                 | Manga109 | DCM772 | Com
 [Nguyen et al.](https://www.mdpi.com/2313-433X/4/7/89) | -        | 76.76  | -       | -            | -         | -
 [Inoue et al.](https://arxiv.org/abs/1803.11365)       | -        | -      | 70.10   | 77.30        | 76.20     | -
 
+
+## Required Datasets
+
+- [iCartoonFace](https://github.com/luxiangju-PersonAI/iCartoonFace)
+- [Manga 109](http://www.manga109.org/en/)
+- [Comic 2k / Watercolor 2k / Clipart 1k](https://github.com/naoto0804/cross-domain-detection)
+- [DCM 772](https://gitlab.univ-lr.fr/crigau02/dcm-dataset/-/tree/master)
+- [eBDtheque](https://ebdtheque.univ-lr.fr/)
+
+Please do not change the default folder structures of these datasets.
+
 ## Files in This Repository
 
 - `evaluator.ipynb` evaluates all the existing dataset scores if a pre-trained model path is given.

@@ -33,7 +33,7 @@ You can find all the pre-trained model weights from [here](https://drive.google.
 
 ### Model Architecture
 
-![Model Design](images/model_arch.png)
+![Model Design](images/model_arch.PNG)
 
 ## Self-Supervised Design
 
@@ -48,29 +48,29 @@ The results shared below are calculated by averaging 5 separate training run out
 
 Models                                                 | iCartoonFace | Manga109 | DCM772
 ---                                                    | ---          | ---      | --- 
-**XS Stage-1 All Styles**                              | 42.50        | 54.74    | 69.93
-**XS Stage-2 Self-Supervised**                         | 49.05        | 69.23    | 82.22
-**XS Stage-3 Fine-Tuned w/ Single Datasets**           | 87.75        | 87.86    | 75.87
-**XS Stage-3 Fine-Tuned w/ Mix of Datasets**           | 83.15        | 86.45    | 78.40       
-**XL Stage-3 Fine-Tuned w/ Single Datasets**           | 90.01        | **87.88** | 77.40
-**XL Stage-3 Fine-Tuned w/ Mix of Datasets**           | 87.77        | 87.08    | **85.77**
+**XS Stage-1**                                         | 42.50        | 54.74    | 69.93
+**XS Stage-2**                                         | 49.19        | 69.25    | 82.45
+**XS Stage-3 w/ Single Datasets**                      | 87.75        | 87.86    | 75.87
+**XS Stage-3 w/ Mix of Datasets**                      | 83.15        | 86.45    | 78.40       
+**XL Stage-3 w/ Single Datasets**                      | 90.01        | **87.88** | 77.40
+**XL Stage-3 w/ Mix of Datasets**                      | 87.77        | 87.08    | **85.77**
 [ACFD](https://arxiv.org/abs/2007.00899)               | **90.94**    | -        | - 
 [Ogawa et al.](https://arxiv.org/abs/1803.08670)       | -            | 76.20    | -
 [Nguyen et al.](https://www.mdpi.com/2313-433X/4/7/89) | -            | -        | 74.94
 
 ### Body Results
 
-Models                                                 | Manga109 | DCM772 | Comic2k | Watercolor2k | Clipart1k | eBDtheque
----                                                    | ---      | ---    | ---     | ---          | ---       | --- 
-**XS Stage-1 All Styles**                              | 42.72    | 65.46  | 56.80   | 67.36        | 55.65     | 14.70
-**XS Stage-2 Self-Supervised**                         | 69.41    | 77.83  | 67.38   | 71.60        | 64.12     | 25.22
-**XS Stage-3 Fine-Tuned w/ Single Datasets**           | 87.06    | 84.89  | 71.66   | 89.17        | 77.97     | - 
-**XS Stage-3 Fine-Tuned w/ Mix of Datasets**           | 86.54    | 83.52  | 75.60   | 82.68        | 75.96     | 33.61
-**XL Stage-3 Fine-Tuned w/ Single Datasets**           | **87.98** | 86.14  | 73.65  | **89.81**    | **83.59** | -
-**XL Stage-3 Fine-Tuned w/ Mix of Datasets**           | 87.50    | **87.24** | **76.00** | 84.75   | 79.63     | **37.48**
-[Ogawa et al.](https://arxiv.org/abs/1803.08670)       | 79.60    | -      | -       | -            | -         | -
-[Nguyen et al.](https://www.mdpi.com/2313-433X/4/7/89) | -        | 76.76  | -       | -            | -         | -
-[Inoue et al.](https://arxiv.org/abs/1803.11365)       | -        | -      | 70.10   | 77.30        | 76.20     | -
+Models                                                 | Manga109 | DCM772 | Comic2k | Watercolor2k | Clipart1k
+---                                                    | ---      | ---    | ---     | ---          | --- 
+**XS Stage-1**                                         | 42.72    | 65.46  | 56.80   | 67.36        | 55.65
+**XS Stage-2**                                         | 69.41    | 77.83  | 67.38   | 71.60        | 64.12 
+**XS Stage-3 w/ Single Datasets**                      | 87.06    | 84.89  | 71.66   | 89.17        | 77.97
+**XS Stage-3 w/ Mix of Datasets**                      | 86.54    | 83.52  | 75.60   | 82.68        | 75.96
+**XL Stage-3 w/ Single Datasets**                      | **87.98** | 86.14  | 73.65  | **89.81**    | **83.59**
+**XL Stage-3 w/ Mix of Datasets**                      | 87.50    | **87.24** | **76.00** | 84.75   | 79.63
+[Ogawa et al.](https://arxiv.org/abs/1803.08670)       | 79.60    | -      | -       | -            | - 
+[Nguyen et al.](https://www.mdpi.com/2313-433X/4/7/89) | -        | 76.76  | -       | -            | - 
+[Inoue et al.](https://arxiv.org/abs/1803.11365)       | -        | -      | 70.10   | 77.30        | 76.20 
 
 
 ## Required Datasets
@@ -79,7 +79,6 @@ Models                                                 | Manga109 | DCM772 | Com
 - [Manga 109](http://www.manga109.org/en/)
 - [Comic 2k / Watercolor 2k / Clipart 1k](https://github.com/naoto0804/cross-domain-detection)
 - [DCM 772](https://gitlab.univ-lr.fr/crigau02/dcm-dataset/-/tree/master)
-- [eBDtheque](https://ebdtheque.univ-lr.fr/)
 
 Please do not change the default folder structures of these datasets.
 

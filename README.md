@@ -33,7 +33,7 @@ You can find all the pre-trained model weights from [here](https://drive.google.
 
 ### Model Architecture
 
-![Model Design](images/model_arch.PNG)
+![Model Design](images/model_arch.png)
 
 ## Self-Supervised Design
 

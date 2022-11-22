@@ -1,6 +1,6 @@
 # DASS_Det_Inference
 
-- **Description:** Original Inference Repository of the Paper: "Domain-Adaptive Self-Supervised Pre-training for Face &amp; Body Detection in Drawings"
+- **Description:** Original Inference Repository of the Paper: "[Domain-Adaptive Self-Supervised Pre-training for Face &amp; Body Detection in Drawings](https://arxiv.org/abs/2211.10641)"
 
 - **Disclaimer:** The model structure and the codes are highly adopted from the [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) model.
 

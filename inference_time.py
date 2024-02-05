@@ -62,7 +62,7 @@ for _ in range(warmup_cnt):
     img_cu = torch.Tensor(imgs).unsqueeze(0).cuda()
 
     with torch.no_grad():
-        face_preds, body_preds = model(img_cu, None, mode=mode)
+        face_preds, body_preds = model(img_cu, mode)
       
         if inc_postproc:
             
@@ -94,7 +94,7 @@ for _ in tqdm(range(repeat_cnt)):
     with torch.no_grad():
 
         starter.record()
-        face_preds, body_preds = model(img_cu, None, mode=mode)
+        face_preds, body_preds = model(img_cu, mode)
       
         if inc_postproc:
           

@@ -24,7 +24,7 @@ Drawings are powerful means of pictorial abstraction and communication. Understa
 
 ## Pre-trained Weights
 
-You can find all the pre-trained model weights from [here](https://drive.google.com/drive/folders/1sQX36bWeIGoAGlQUiaUA9wnEUwtVsS76?usp=sharing). Please note that: 
+You can find all the pre-trained model weights from [here](https://drive.google.com/drive/folders/14HJEg681oM1Lma2m0J0ljKDYag74mquj?usp=drive_link). Please note that: 
 
 - if the model name includes `xs`, then the depth and width parameters should be set as `depth, width = 0.33, 0.375`. If it includes `xl`, then `depth, width = 1.33, 1.25`. 
 - for the stage-2 weights (i.e., self-supervised, teacher-student), load the model with the `teacher_model` key in the weight dictionary. Otherwise use `model` key.

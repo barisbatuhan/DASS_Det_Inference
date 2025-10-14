@@ -1,12 +1,8 @@
-# DASS_Det_Inference
+# DASS-Det Inference
 
 - **Description:** Original Inference Repository of the Paper: "[Domain-Adaptive Self-Supervised Pre-training for Face &amp; Body Detection in Drawings](https://arxiv.org/abs/2211.10641)"
 
 - **Disclaimer:** The model structure and the codes are highly adopted from the [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX) model.
-
-## Badges
-
-![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/domain-adaptive-self-supervised-pre-training/face-detection-on-icartoonface) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/domain-adaptive-self-supervised-pre-training/face-detection-on-manga109)](https://paperswithcode.com/sota/face-detection-on-manga109?p=domain-adaptive-self-supervised-pre-training) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/domain-adaptive-self-supervised-pre-training/face-detection-on-dcm)](https://paperswithcode.com/sota/face-detection-on-dcm?p=domain-adaptive-self-supervised-pre-training) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/domain-adaptive-self-supervised-pre-training/body-detection-on-manga109)](https://paperswithcode.com/sota/body-detection-on-manga109?p=domain-adaptive-self-supervised-pre-training) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/domain-adaptive-self-supervised-pre-training/body-detection-on-dcm)](https://paperswithcode.com/sota/body-detection-on-dcm?p=domain-adaptive-self-supervised-pre-training) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/domain-adaptive-self-supervised-pre-training/weakly-supervised-object-detection-on-comic2k)](https://paperswithcode.com/sota/weakly-supervised-object-detection-on-comic2k?p=domain-adaptive-self-supervised-pre-training) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/domain-adaptive-self-supervised-pre-training/weakly-supervised-object-detection-on-1)](https://paperswithcode.com/sota/weakly-supervised-object-detection-on-1?p=domain-adaptive-self-supervised-pre-training) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/domain-adaptive-self-supervised-pre-training/weakly-supervised-object-detection-on-2)](https://paperswithcode.com/sota/weakly-supervised-object-detection-on-2?p=domain-adaptive-self-supervised-pre-training)
 
 ## Requirements
 
